@@ -1,0 +1,46 @@
+<>
+	
+	<menuitem label="Overview" icon="downArrowIcon">
+		<menuitem label="Grid Activity" type="dashboard" value="HPC Grid Activity"/>
+	</menuitem>
+	<menuitem label="Metrics" icon="downArrowIcon">
+		<menuitem label="Cluster Metrics" type="dashboard" value="HPC Cluster Metrics"/>
+		<menuitem label="Node Metrics" type="dashboard" value="HPC Node Metrics"/>
+	</menuitem>
+	
+	<menuitem label="Jobs & Tasks" icon="downArrowIcon">
+		<menuitem label="Job Overview" type="dashboard" value="HPC Jobs"/>
+		<menuitem label="by Status" icon="downArrowIcon">
+			<menuitem label="Failed" type="dashboard" value="HPC Failed"/>
+			<menuitem label="Finished" type="dashboard" value="HPC Finished"/>
+		</menuitem>
+	</menuitem>
+	
+	<menuitem label="OS KPI" icon="downArrowIcon">
+		<menuitem label="Overview" type="dashboard" value="Windows Overview"/>
+		<menuitem label="CPU Summary" type="dashboard" value="Windows CPU Summary"/>
+		<menuitem label="Memory Summary" type="dashboard" value="Windows Memory Summary"/>
+		<menuitem label="Disk Summary" type="dashboard" value="Windows Disk Summary"/>
+		<menuitem label="Network Summary" type="dashboard" value="Windows Network Summary"/>
+	</menuitem>
+	
+
+	<menuitem label="Documentation" icon="downArrowIcon">
+		<menuitem label="Microsoft HPC" icon="downArrowIcon">
+			<menuitem label="Microsoft HPC Home Page" type="html" value="http://www.microsoft.com/hpc/"/>
+			<menuitem label="MSDN Library for Microsoft HPC" type="html" value="http://msdn.microsoft.com/en-us/library/ff976568.aspx"/>
+		</menuitem>
+		<menuitem label="Logscape" icon="downArrowIcon">
+			<menuitem label="Logscape - Support" type="html" value="http://support.liquidlabs.co.uk"/>
+			<menuitem label="Logscape - Community" type="html" value="http://community.liquidlabs.co.uk"/>
+		</menuitem>
+	</menuitem>
+	
+	<menuitem label="Admin" icon="downArrowIcon">
+		<menuitem label="Alerting" type="alerting" value=""/>
+		<menuitem label="Log Explorer" type="explorer" value=""/>
+		<menuitem label="Reports" type="reports" value=""/>
+		<menuitem label="Live Events" type="live" value=""/>
+		<menuitem label="Logout"/>
+	</menuitem>
+</>

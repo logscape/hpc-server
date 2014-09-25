@@ -1,0 +1,6 @@
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\jobdetails\jobdetails\bin\Debug\jobdetails.exe.config
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\jobdetails\jobdetails\bin\Debug\jobdetails.exe
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\jobdetails\jobdetails\bin\Debug\jobdetails.pdb
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\jobdetails\jobdetails\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\jobdetails\jobdetails\obj\x86\Debug\jobdetails.exe
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\jobdetails\jobdetails\obj\x86\Debug\jobdetails.pdb

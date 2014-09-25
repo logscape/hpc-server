@@ -1,0 +1,12 @@
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\pythonTest\bin\Debug\pythonTest.exe.config
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\pythonTest\bin\Debug\pythonTest.exe
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\pythonTest\bin\Debug\pythonTest.dll
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\pythonTest\bin\Debug\IronPython.dll
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\pythonTest\bin\Debug\IronPython.Modules.dll
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\pythonTest\bin\Debug\Microsoft.Dynamic.dll
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\pythonTest\bin\Debug\Microsoft.Scripting.dll
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\pythonTest\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\pythonTest\bin\Debug\IronPython.xml
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\pythonTest\bin\Debug\IronPython.Modules.xml
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\pythonTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\pythonTest\obj\x86\Debug\pythonTest.exe

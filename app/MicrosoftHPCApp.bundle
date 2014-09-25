@@ -1,0 +1,43 @@
+<Bundle name="PushDiffusionApp" version="1.0" system="false">
+  <status>UNINSTALLED</status>
+  <owner>info@logscape.com</owner>
+  <services>
+	<Service>
+      	<name>getHpcClusterOverview</name>
+		<resourceSelection>type contains hpcHeadAgent</resourceSelection>
+      	<fork>false</fork>
+      	<background>true</background>
+		<instanceCount>-1</instanceCount>
+		<pauseSeconds>0</pauseSeconds>
+      	<script>getHpcClusterOverview.groovy</script>
+    </Service>
+	<Service>
+      	<name>getHpcNodeMetrics</name>
+		<resourceSelection>type contains hpcHeadAgent</resourceSelection>
+      	<fork>false</fork>
+      	<background>true</background>
+		<instanceCount>-1</instanceCount>
+		<pauseSeconds>0</pauseSeconds>
+      	<script>getHpcNodeMetrics.groovy</script>
+    </Service>
+	<Service>
+      	<name>getJobDetails</name>
+		<resourceSelection>type contains hpcHeadAgent</resourceSelection>
+      	<fork>false</fork>
+      	<background>true</background>
+		<instanceCount>-1</instanceCount>
+		<pauseSeconds>0</pauseSeconds>
+      	<script>getJobDetails.dotnet.groovy</script>
+    </Service>
+	<Service>
+      	<name>getTaskDetails</name>
+		<resourceSelection>type contains hpcHeadAgent</resourceSelection>
+      	<fork>false</fork>
+      	<background>true</background>
+		<instanceCount>-1</instanceCount>
+		<pauseSeconds>0</pauseSeconds>
+      	<script>getTaskDetails.dotnet.groovy</script>
+    </Service>
+
+  </services>
+</Bundle>

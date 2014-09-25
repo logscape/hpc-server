@@ -1,0 +1,11 @@
+C:\Users\TEMP.AJG.003\AppData\Local\Temporary Projects\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\Users\TEMP.AJG.003\AppData\Local\Temporary Projects\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+C:\Users\TEMP.AJG.003\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\TEMP.AJG.003\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.exe
+C:\Users\TEMP.AJG.003\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.pdb
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.exe
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.pdb
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\ConsoleApplication1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\repository\trunk\apps\MicrosoftHPCApp-1.0\dotnet\taskDetailsLogger\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
