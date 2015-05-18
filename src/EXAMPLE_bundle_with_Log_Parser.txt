@@ -1,0 +1,87 @@
+<Bundle name="MicrosoftHPCApp" version="1.1" system="false">
+  <status>UNINSTALLED</status>
+  <owner>info@logscape.com</owner>
+  <services>
+	<Service>
+      	<name>ClusterOverview</name>
+		<resourceSelection>type contains HeadNode</resourceSelection>
+      	<fork>false</fork>
+      	<background>true</background>
+		<instanceCount>-1</instanceCount>
+		<pauseSeconds>0</pauseSeconds>
+		<script>powerShellRunner.groovy clusterOverview.ps1</script>
+    </Service>
+	<Service>
+      	<name>NodeMetrics</name>
+		<resourceSelection>type contains HeadNode</resourceSelection>
+      	<fork>false</fork>
+      	<background>true</background>
+		<instanceCount>-1</instanceCount>
+		<pauseSeconds>0</pauseSeconds>
+		<script>powerShellRunner.groovy nodeMetrics.ps1</script>
+    </Service>
+	<Service>
+      	<name>SchedulerEvents</name>
+		<resourceSelection>type contains HeadNode</resourceSelection>
+      	<fork>false</fork>
+      	<background>true</background>
+		<instanceCount>-1</instanceCount>
+		<pauseSeconds>0</pauseSeconds>
+		<script>powerShellRunner.groovy schedulerEvents.ps1</script>
+    </Service>
+	<Service>
+      	<name>JobHistory</name>
+		<resourceSelection>type contains HeadNode</resourceSelection>
+      	<fork>false</fork>
+      	<background>true</background>
+		<instanceCount>-1</instanceCount>
+		<pauseSeconds>0</pauseSeconds>
+		<script>powerShellRunner.groovy jobHistory.ps1</script>
+    </Service>
+	<Service>
+      	<name>LiveCallIndividuals</name>
+		<resourceSelection>type contains HeadNode</resourceSelection>
+      	<fork>true</fork>
+      	<background>true</background>
+		<instanceCount>-1</instanceCount>
+		<pauseSeconds>30</pauseSeconds>
+		<script>LiveCallIndividuals.groovy</script>
+    </Service>
+	<Service>
+      	<name>LiveCallTotals</name>
+		<resourceSelection>type contains HeadNode</resourceSelection>
+      	<fork>true</fork>
+      	<background>true</background>
+		<instanceCount>-1</instanceCount>
+		<pauseSeconds>30</pauseSeconds>
+		<script>LiveCallTotals.groovy</script>
+    </Service>
+	<Service>
+      	<name>EODStats</name>
+		<resourceSelection>type contains HeadNode</resourceSelection>
+      	<fork>true</fork>
+      	<background>true</background>
+		<instanceCount>-1</instanceCount>
+		<pauseSeconds>14400</pauseSeconds>
+		<script>EODStats.groovy</script>
+    </Service>
+	<Service>
+      	<name>EODUtil</name>
+		<resourceSelection>type contains HeadNode</resourceSelection>
+      	<fork>true</fork>
+      	<background>true</background>
+		<instanceCount>-1</instanceCount>
+		<pauseSeconds>14400</pauseSeconds>
+		<script>EODUtil.groovy</script>
+    </Service>
+    <Service>
+	    <name>HPCParser</name>
+		<resourceSelection>type contains hpc</resourceSelection>
+	    <fork>true</fork>
+	    <background>true</background>
+		<instanceCount>-1</instanceCount>
+		<pauseSeconds>14400</pauseSeconds>
+		<script>logparser.groovy BATCHparser.properties</script>
+    </Service>
+	</services>
+</Bundle>
