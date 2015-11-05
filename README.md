@@ -1,5 +1,5 @@
 # **Microsoft HPC App for Logscape**
-info@logscape.com in conjunction with ben.newton@excelian.com
+info@logscape.com in conjunction with Ben Newton
 
 ## Introduction 
 -----------------------------------------------------------------------
